@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: white
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url(./fonts/Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'), url(./fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy-SemiBold'), url(./fonts/Gilroy-Light.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    background: #FFF;
+    font-style: normal;
+}
+
+.top {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.logo__header {
+    margin-top: 40px;
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.header__links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    line-height: normal;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 533px;
+    height: 17px;
+}
+
+.header__link_1 {
+    color: #F25822;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.top__content {
+    margin-top: 149px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 41px;
+    margin-bottom: 162px;
+}
+
+.top__info {
+    padding-top: 59px;
+}
+
+.title {
+    color: black;
+    margin-bottom: 17px;
+    width: 522px;
+    font-size: 60px;
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: normal;
+}
+
+.text {
+    padding-bottom: 37px;
+    width: 466px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    word-wrap: break-word
+}
+
+.content_buttons {
+    display: flex;
+    gap: 72px;
+}
+
+.form__button {
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form__button__test {
+    color: #AAA;
+    border-radius: 50px;
+    border: white;
+    background-color: white;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__image {
+    width: 545px;
+    height: 375px;
+    flex-shrink: 0;
+}
+
+.top__logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
